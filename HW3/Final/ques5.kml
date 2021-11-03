@@ -134,10 +134,7 @@
             </LineString>
         </Placemark>
 		<Style id ="polycolor">
-			<LineStyle>
-				<color> 7f00ffff </color>
-				<width> 4 </width>
-			</LineStyle>
+			
 			<PolyStyle>
 				<color> 7f00ffff </color>
 			</PolyStyle>
