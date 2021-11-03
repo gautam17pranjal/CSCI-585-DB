@@ -1,0 +1,344 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.28642434194123,
+          34.02926400675546
+        ]
+      },
+      "properties": {
+        "name": "Home",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.28791766693948,
+          34.02452802149622
+        ]
+      },
+      "properties": {
+        "name": "Webb_Tower",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.28988752043367,
+          34.02065814284973
+        ]
+      },
+      "properties": {
+        "name": "DWStructure",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.28936200646002,
+          34.0191549413457
+        ]
+      },
+      "properties": {
+        "name": "AHRCParkside",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2869430541605,
+          34.01998998756802
+        ]
+      },
+      "properties": {
+        "name": "USCDDDCLASciences",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.28417599713117,
+          34.018872198396636
+        ]
+      },
+      "properties": {
+        "name": "USCLSchool",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.28239722579629,
+          34.01913010540583
+        ]
+      },
+      "properties": {
+        "name": "TRHall",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.28184151543769,
+          34.01986975989288
+        ]
+      },
+      "properties": {
+        "name": "FBuilding",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.28171278769516,
+          34.02170771465292
+        ]
+      },
+      "properties": {
+        "name": "HRHall",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2834138467218,
+          34.022490142655904
+        ]
+      },
+      "properties": {
+        "name": "AKDundonBert",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.28526937694465,
+          34.02323844023243
+        ]
+      },
+      "properties": {
+        "name": "RamoHall",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.28499034900311,
+          34.02065444088764
+        ]
+      },
+      "properties": {
+        "name": "DonLibrary",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2868996671334,
+          34.021608981481094
+        ]
+      },
+      "properties": {
+        "name": "PHBuilding",
+        "styleUrl": "#z1",
+        "styleHash": "5d489593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.28417599713117,
+              34.018872198396636,
+              10
+            ],
+            [
+              -118.28936200646002,
+              34.0191549413457,
+              10
+            ],
+            [
+              -118.28988752043367,
+              34.02065814284973,
+              10
+            ],
+            [
+              -118.28642434194123,
+              34.02926400675546,
+              10
+            ],
+            [
+              -118.28171278769516,
+              34.02170771465292,
+              10
+            ],
+            [
+              -118.28184151543769,
+              34.01986975989288,
+              10
+            ],
+            [
+              -118.28239722579629,
+              34.01913010540583,
+              10
+            ],
+            [
+              -118.28417599713117,
+              34.018872198396636,
+              10
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Convex Hull Polygon",
+        "styleUrl": "#yellowLineGreenPoly",
+        "styleHash": "485727ab",
+        "stroke-width": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.28642434194123,
+            34.02926400675546,
+            0
+          ],
+          [
+            -118.28791766693948,
+            34.02452802149622,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Line to Webb_Tower",
+        "styleUrl": "#yellowline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.28642434194123,
+            34.02926400675546,
+            0
+          ],
+          [
+            -118.28526937694465,
+            34.02323844023243,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Line to RamoHall",
+        "styleUrl": "#yellowline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.28642434194123,
+            34.02926400675546,
+            0
+          ],
+          [
+            -118.2868996671334,
+            34.021608981481094,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Line to AKDundonBert",
+        "styleUrl": "#yellowline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.28642434194123,
+            34.02926400675546,
+            0
+          ],
+          [
+            -118.2834138467218,
+            34.022490142655904,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Line to PHBuilding",
+        "styleUrl": "#yellowline"
+      }
+    }
+  ]
+}
