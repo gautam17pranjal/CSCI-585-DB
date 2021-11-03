@@ -1,4 +1,4 @@
-
+-- Database: PostGres
 
 -- **** Table creation ****
 CREATE TABLE USC_Area (name VARCHAR, geog GEOGRAPHY(Point));
