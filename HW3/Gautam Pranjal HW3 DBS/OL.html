@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OL</title>
+  <script src="https://openlayers.org/api/OpenLayers.js">
+  </script>
+  <style>
+    #map {
+        width:700px;
+        height:700px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+  var d = {"k1":[{"a":34.02926400675546, "b":-118.28642434194123},
+    {"a":34.02452802149622, "b":-118.28791766693948},
+    {"a":34.02065814284973, "b":-118.28988752043367},
+    {"a":34.0191549413457, "b":-118.28936200646002},
+    {"a":34.01998998756802, "b":-118.2869430541605},
+    {"a":34.018872198396636, "b":-118.28417599713117},
+    {"a":34.01913010540583, "b":-118.28239722579629},
+    {"a":34.01986975989288, "b":-118.28184151543769},
+    {"a":34.02170771465292, "b":-118.28171278769516},
+    {"a":34.022490142655904, "b":-118.2834138467218},
+    {"a":34.02323844023243, "b":-118.28526937694465},
+    {"a":34.02065444088764, "b":-118.28499034900311},
+    {"a":34.021608981481094, "b":-118.2868996671334}
+  ]};
+  localStorage.setItem("myData",JSON.stringify(d));
+  var dataStored = JSON.parse(localStorage.getItem("myData"));
+  console.log(dataStored); 
+  var a = dataStored.k1;
+  function initMap() {
+          map = new OpenLayers.Map('map');
+          basemap = new OpenLayers.Layer.OSM("Simple OSM Map");
+          map.addLayer(basemap);
+          markers = new OpenLayers.Layer.Markers("Markers");
+          map.addLayer(markers);
+  }
+  function addMarker(latitude, longitude) {
+          var lonLat = new OpenLayers.LonLat(longitude, latitude)
+              .transform(
+                  new OpenLayers.Projection("EPSG:4326"), 
+                  map.getProjectionObject() 
+          );
+          var point = new OpenLayers.Marker(lonLat);
+          markers.addMarker(point);
+          map.setCenter(lonLat, 8);
+  }
+  initMap();
+  for(var ind in a){
+    addMarker(a[ind].a, a[ind].b);
+  }
+  </script>
+</body>
+</html>
